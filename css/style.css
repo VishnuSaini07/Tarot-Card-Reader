@@ -1,0 +1,525 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.hero-1 {
+  height: 100vh;
+  width: 100%;
+  background-color: #1a1a1a;
+  background-image: url("/images/hero-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-1 .navbar-brand img {
+  height: 70px;
+  width: 70px;
+  filter: invert(100);
+}
+
+.hero-1 .overlay-1 {
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.hero-1 li a.active {
+  color: yellow !important;
+}
+
+.hero-1 li a:hover {
+  color: yellow !important;
+}
+
+.title {
+  position: relative;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.title h1,
+.work h1,
+.certificate h1 {
+  font-size: 20px;
+  font-weight: 300;
+  color: yellow;
+}
+
+.title p {
+  font-size: 120px;
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+}
+
+button:hover {
+  background-color: none;
+}
+
+section {
+  height: 100%;
+  width: 100%;
+  padding: 60px 0;
+  background-color: #1a1a1a;
+  position: relative;
+}
+
+section .container {
+  display: flex;
+}
+
+/* Work Page */
+
+section .img-section {
+  width: 50%;
+  height: 100%;
+}
+
+.img-section img {
+  width: 100%;
+  height: 100%;
+  background-size: auto;
+}
+
+section .work {
+  width: 50%;
+  padding: 30px 50px;
+}
+
+.work p {
+  font-size: 50px;
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+}
+
+.work .tarot-cards {
+  transform: rotate(180deg);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+/* Learning Page */
+
+#learning {
+  background-image: url(/images/tarot-card-reader-card-meaning-section-img.jpg);
+  background-repeat: no-repeat;
+  height: 450px;
+  background-color: #e0b985;
+  width: 85vw;
+}
+
+#learning .learning-box {
+  width: 50%;
+  padding: 100px 0;
+}
+
+.learning-box .name {
+  letter-spacing: 2px;
+  font-size: 16px;
+}
+
+.learning-box h1 {
+  font-size: 45px;
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  color: black;
+}
+
+/* About Page */
+
+section .about {
+  width: 50%;
+  position: relative;
+}
+
+#about h1 {
+  font-size: 20px;
+  font-weight: 300;
+  color: yellow;
+  margin-left: 120px;
+}
+
+.about .name {
+  font-size: 100px;
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+}
+
+.about .description {
+  font-size: 18px;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+.about-img {
+  width: 50%;
+  height: 100%;
+}
+
+.about-img img {
+  width: 100%;
+  height: 100%;
+  background-size: auto;
+}
+
+hr {
+  width: 90%;
+  margin-top: 10px;
+  color: yellow;
+}
+
+.certificate,
+.facts {
+  width: 90%;
+}
+
+.certificate h1,
+.facts h1 {
+  font-size: 17px;
+}
+
+.certificate img {
+  height: 70px;
+  width: 70px;
+  filter: invert();
+}
+
+.facts p {
+  font-size: 45px;
+  font-family: "Abril Fatface", serif;
+  font-weight: 600;
+  color: white;
+}
+
+.facts p span {
+  display: block;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* footer section */
+
+footer {
+  height: 70vh;
+  background-color: #1a1a1a;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid #b1b1b1;
+}
+
+footer .container {
+  height: 100%;
+}
+
+footer .container .side-1 {
+  width: 20%;
+  z-index: 100;
+}
+
+footer .side-1 .bg-img {
+  position: absolute;
+  height: 100%;
+  left: 0px;
+  filter: invert(30%);
+}
+
+footer .container .side-2 {
+  width: 80%;
+  padding-top: 60px;
+  padding-left: 20%;
+}
+
+.side-2 .icons i {
+  font-size: 25px;
+  padding: 0 7px;
+  color: #b1b1b1;
+  cursor: pointer;
+}
+
+.side-2 .icons i:hover {
+  color: white;
+}
+
+.side-2 .column h3 {
+  font-size: 25px;
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.side-2 .column p {
+  cursor: pointer;
+  color: #b1b1b1;
+}
+
+.side-2 .column p:hover {
+  color: white;
+}
+
+.copyright {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 768px) {
+  .title {
+    top: 10%;
+    left: 35%;
+  }
+
+  .title h1 {
+    font-size: 30px;
+  }
+
+  .title p {
+    font-size: 80px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+  }
+
+  section .container {
+    display: block;
+  }
+
+  section .img-section {
+    width: 100%;
+    height: 100%;
+  }
+
+  .img-section img {
+    height: 100%;
+    width: 100%;
+  }
+
+  section .work {
+    width: 70%;
+    padding: 30px 0px;
+  }
+
+  .work p {
+    font-size: 35px;
+  }
+
+  #learning {
+    width: 100vw;
+    height: 800px;
+  }
+
+  #learning .learning-box {
+    width: 100%;
+    padding-left: 50px;
+    position: absolute;
+    bottom: 10px;
+  }
+
+  section .about {
+    width: 100%;
+  }
+
+  .about .name {
+    margin-top: 20px;
+    font-size: 85px;
+  }
+
+  .about .description {
+    font-size: 16px;
+  }
+
+  .about-img {
+    margin-top: 10%;
+    width: 100%;
+  }
+
+  #about .container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  #about h1 {
+    margin-left: 50px;
+  }
+
+  hr {
+    width: 100%;
+  }
+
+  .certificate,
+  .facts {
+    width: 100%;
+  }
+
+  footer .container {
+    height: 100%;
+  }
+
+  footer .container .side-1 {
+    width: 100%;
+    display: none;
+  }
+
+  footer .side-1 .bg-img {
+    position: absolute;
+    height: 100%;
+    left: 0px;
+    filter: invert(30%);
+  }
+
+  footer .container .side-2 {
+    width: 100%;
+    padding-top: 60px;
+    padding-left: 0;
+  }
+
+  .side-2 .icons i {
+    font-size: 20px;
+  }
+
+  .side-2 .column h3 {
+    font-size: 20px;
+  }
+
+  .side-2 .column p {
+    font-size: 15px;
+  }
+}
+
+/* Mobile view */
+
+@media only screen and (max-width: 320px) {
+  .title {
+    top: 10%;
+    left: 50%;
+  }
+
+  .title h1 {
+    font-size: 20px;
+  }
+
+  .title p {
+    font-size: 50px;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+  }
+
+  section .container {
+    display: block;
+  }
+
+  section .img-section {
+    display: none;
+  }
+
+  section .work {
+    width: 100%;
+    padding: 30px 30px;
+  }
+
+  .work p {
+    font-size: 20px;
+  }
+
+  .work .tarot-cards {
+    display: none;
+  }
+
+  #learning {
+    width: 100vw;
+    height: 800px;
+  }
+
+  .learning-box .name {
+    letter-spacing: 2px;
+    font-size: 16px;
+  }
+
+  .learning-box h1 {
+    font-size: 30px;
+  }
+
+  section .about {
+    width: 100%;
+  }
+
+  .about .name {
+    margin-top: 20px;
+    font-size: 70px;
+  }
+
+  .about .description {
+    font-size: 14px;
+  }
+
+  #about h1 {
+    margin-left: 15px;
+  }
+
+  .certificate h1,
+  .facts h1 {
+    font-size: 14px !important;
+  }
+
+  .certificate img {
+    height: 50px;
+    width: 50px;
+  }
+
+  .facts p {
+    font-size: 30px;
+  }
+
+  .facts p span {
+    font-size: 14px;
+  }
+
+  footer .container {
+    height: 100%;
+  }
+
+  footer .container .side-1 {
+    width: 100%;
+    display: none;
+  }
+
+  footer .side-1 .bg-img {
+    position: absolute;
+    height: 100%;
+    left: 0px;
+    filter: invert(30%);
+  }
+
+  footer .container .side-2 {
+    width: 100%;
+    padding-top: 60px;
+    padding-left: 0;
+  }
+
+  .side-2 .icons i {
+    font-size: 20px;
+  }
+
+  .side-2 .column h3 {
+    font-size: 20px;
+  }
+
+  .side-2 .column p {
+    font-size: 15px;
+  }
+
+  .copyright p {
+  font-size: 13px;
+}
+}
